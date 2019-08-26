@@ -8,7 +8,7 @@ var recipes = {
 //   return recipes;
 // }
 function updateObjectWithKeyAndValue(object, key, value){
-  return Object.assign({}, object, { [key]: 2 });
+  return Object.assign({}, object, { [key]: '2' });
   return recipes;
 }
 
