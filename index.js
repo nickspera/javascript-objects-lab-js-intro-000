@@ -9,9 +9,12 @@ function updateObjectWithKeyAndValue(object, key, value){
 }
 
 
-// function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
-  // recipes.prop = 'new value';
-//  return recipes;
-// }
 
-// deleteFromObjectByKey(object, key)
+function deleteFromObjectByKey(object, key){
+  object[key] = value
+}
+
+function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
+  recipes.prop = 'new value';
+ return recipes;
+}
