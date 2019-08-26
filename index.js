@@ -8,7 +8,7 @@ var recipes = {
 //   return recipes;
 // }
 function updateObjectWithKeyAndValue(object, key, value){
-  return Object.assign({}, recipes, { prop: 'new value' });
+  return Object.assign({}, recipes, { [prop]: 'new value' });
   return recipes;
 }
 
